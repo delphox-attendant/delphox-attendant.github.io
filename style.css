@@ -9,6 +9,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	padding: 4px;
 	img {
 		width: 128px;
 		height: auto;
