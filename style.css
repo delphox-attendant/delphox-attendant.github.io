@@ -4,7 +4,14 @@ body {
 	background-size: cover;
 }
 .center {
-	display: block;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	overflow: hidden;
+	img {
+		width: 128px;
+		height: auto;
+	}
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
