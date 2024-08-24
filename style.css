@@ -2,17 +2,8 @@ body {
 	background: linear-gradient(0deg, rgba(255,178,37,1) 0%, rgba(255,255,255,1) 100%);
 	background-attachment: fixed;
 	background-size: cover;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin-left: auto;
-	margin-right: auto;
 	width: 50%;
-	padding: 4px;
 	img {
-		height: auto; 
-		width: auto; 
-		max-width: 128px; 
-		max-height: 128px;
+		margin: 4px;
 	}
 }
