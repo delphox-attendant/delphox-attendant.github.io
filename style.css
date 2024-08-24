@@ -5,13 +5,14 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 	padding: 4px;
 	img {
-		width: 128px;
-		height: auto;
+		height: auto; 
+		width: auto; 
+		max-width: 128px; 
+		max-height: 128px;
 	}
 }
